@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> <!-- Titles and stuff -->
+   <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet"> <!-- paragraphs -->
+    <!-- js FILE -->
+    <link rel="stylesheet" href="css/unslider-dots.css">
+    <link rel="stylesheet" href="css/unslider.css">
+
+   <!-- Link to your CSS -->
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+
+   <title>Hello, world!</title>
+ </head>
+ <body>
+   <!-- Your Code Starts Here -->
+
+   <header>
+      <div class="container" style="background-color: #747474;">
+         <div class="row">
+            <div class="col-2">
+            <nav class="navbar navbar-light bg-faded" style="width: 100%; padding-top: 30%;">
+              <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <img src="img/dropdown.png" class="img-fluid dropdown-img center-block" style="width: 50px;">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                     <a class="dropdown-item" href="#info">Museum Info</a>
+                     <a class="dropdown-item" href="#story">Story of Stax</a>
+                     <a class="dropdown-item" href="#rebirth">Rebirth of Soulsville</a>
+                     <a class="dropdown-item" href="#news">News</a>
+                     <a class="dropdown-item" href="#events">Events</a>
+                     <a class="dropdown-item" href="#shop">Shop</a>
+                     <a class="dropdown-item" href="#tickets">Buy Tickets</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+               <div>
+                  <a class="navbar-brand">
+                     <img src="img/stax-logo.png" class="img-fluid logo">
+                  </a>
+               </div>
+            </nav>
+         </div>
+      </div>
+   </header>
+   <<div class="row">
+      <div class="col-2"></div>
+               <div class="col-8 top">
+                     <div class="automatic-slider photos-wrap">
+                          <ul>
+                            <li><img src="img/stax-story.jpeg"></li>
+                            <li><img src="img/museum-exhibits.jpeg"></li>
+                            <li><img src="img/stax-heads-west.jpeg"></li>
+                          </ul>
+                </div> <!-- photos-wrap closer -->
+                <div class="top-text">
+                  <h1>STAX MUSUEM</h1>
+                     <h4>TALENT  HUSTLE  SOUL</h4>
+                </div>
+              </div>
+              <div class="col-2"></div>
+            </div>
+              <div class="row">
+      <div class="col-12 titlestax">
+         <h2> The Story of Stax</h2>
+      </div>
+      </div>
+      <img src="img/staxstory.png" class="storyimg img-responsive">
+   <div class="container>
+      <div class="row">
+         <div class="col-6 offset-md-3">
+               <h3>Museum Exhibits</h3>
+         </div>
+         <div class="col-6 offset-md-3">
+               <p>See Stax’s impact in our hall of records and hear the classics – or find new favorites – at our listening station.</p>
+         </div>
+      </div>
+   </div>
+
+   
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+   <script src="js/unslider.js"></script> <!-- but with the right path! -->
+
+        <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider();
+            });
+            $('.fading-slider').unslider({
+              animation: 'fade',
+              autoplay: true,
+              arrows: false
+            });
+            $('.automatic-slider').unslider({
+              autoplay: true,
+              infinite: true,
+              arrows: false,
+              animateHeight: true,
+              nav: false
+            });
+            $('.vertical-slider').unslider({
+                animation: 'vertical',
+                autoplay: true,
+                infinite: true,
+                arrows: false,
+                nav: false
+                });
+
+    </script>  
+ </body>
+</html>
